@@ -1,0 +1,65 @@
+.descriptionBox {
+  display: flex;
+  max-height: 350px;
+}
+.imgstyle {
+  display: flex;
+  justify-content: left;
+  margin: 0 10px;
+}
+
+.textstyle {
+  display: flex;
+  justify-content: right;
+  margin: 0 10px;
+}
+
+.featuredCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 4rem;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.featuredCard img {
+  width: 250px;
+  margin-right: 20px;
+  border-radius: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.cardStyle {
+  transition-duration: 150ms;
+}
+
+.cardStyle:hover {
+  transform: scale(110%);
+}
+
+.cardStyle img {
+  border-radius: 5%;
+}
+
+.cardStyle p {
+  max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.magikarp {
+  color: var(--magikarp-1);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.gyarados {
+  color: var(--gyarados-1);
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}

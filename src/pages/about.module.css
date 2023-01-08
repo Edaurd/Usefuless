@@ -1,0 +1,27 @@
+.aboutContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.aboutText {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 1rem;
+}
+
+.textContainer {
+  margin-bottom: 1rem;
+}
+
+.aboutImage {
+  width: 50%;
+}
+
+.aboutImage img {
+  background-color: transparent;
+}

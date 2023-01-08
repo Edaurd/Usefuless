@@ -1,0 +1,32 @@
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.cardStyle {
+  padding: 10%;
+  transition-duration: 150ms;
+}
+
+.cardStyle:hover {
+  transform: scale(110%);
+}
+
+.cardStyle img {
+  border-radius: 5%;
+}
+
+.magikarp {
+  color: var(--magikarp-1);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.gyarados {
+  color: var(--gyarados-1);
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}

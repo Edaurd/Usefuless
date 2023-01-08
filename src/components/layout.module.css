@@ -1,59 +1,73 @@
+:root {
+  --gyarados-1: #4aaaf4;
+  --gyarados-2: #198ab3;
+  --gyarados-3: #f3f1a8;
+  --gyarados-4: #f85f36;
+  --magikarp-1: #ff7f6b;
+  --magikarp-2: #ff9c6b;
+  --magikarp-3: #ffc16b;
+  --magikarp-4: #f499a3;
+}
+
 html {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    font: 112.5%/1.45em sans-serif, georgia, serif;
-    box-sizing: border-box;
-    overflow-y: scroll;
-    background-color: #000;
-  }
-  body {
-    overflow: hidden;
-    margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: white;
-    font-family: sans-serif, georgia, serif;
-    font-weight: normal;
-    word-wrap: break-word;
-    font-kerning: normal;
-    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-    -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-    font-feature-settings: "kern", "liga", "clig", "calt";
-  }
-  
-  .container {
-    width: 90%;
-    max-width: 1080px;
-    margin: auto;
-    font-family: sans-serif;
-  }
-  
-  .nav {
-    display: flex;
-  }
-  
-  .nav-links {
-    display: flex;
-    align-items: center;
-    height: 90px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
-  
-  .nav-link-item {
-    padding-right: 2rem;
-  }
-  
-  .nav-link-text {
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.2s ease;
-  }
-  
-  .nav-link-text:hover {
-    color: #37ba83;
-  }
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--gyarados-3);
+  width: 100%;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 150px 1rem;
+  display: grid;
+  justify-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: var(--gyarados-4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 120px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-link-item {
+  padding-right: 3rem;
+}
+
+.nav-link-text {
+  color: var(--magikarp-3);
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav-link-text:hover {
+  color: var(--magikarp-2);
+  font-weight: 700;
+}
+
+.navLogo {
+  display: block;
+  width: 6rem;
+  margin-right: 1rem;
+}
